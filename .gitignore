@@ -1,0 +1,18 @@
+# Python
+backend/venv/
+**/__pycache__/
+*.pyc
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+.env.*
+
+# Large datasets - keep locally
+dataset/recipes.csv
+dataset/cleaned_recipes.csv
+backend/dataset/recipes.csv
+backend/dataset/cleaned_recipes.csv
